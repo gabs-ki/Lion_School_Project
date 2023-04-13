@@ -122,7 +122,7 @@ const criarCard = (card) => {
         localStorage.setItem('matricula', card.matricula)
        
         
-        window.location.href = "./javascript/turma/javascript/aluno/index.html"
+        window.location.href = "./javascript/aluno/index.html"
     })
     
 

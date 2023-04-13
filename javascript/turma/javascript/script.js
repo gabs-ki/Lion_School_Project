@@ -19,7 +19,7 @@ const devolverArrayStatusFinalizado = async () => {
 const voltarTela = () => {
     const sair = document.getElementById('sair')
     sair.addEventListener('click', () => {
-        window.location.href = 'http://127.0.0.1:5500/lion-school/home/index.html'
+        window.location.href = 'https://lion-school-project.vercel.app'
     })
 }
 

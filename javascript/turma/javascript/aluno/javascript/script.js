@@ -23,7 +23,7 @@ const aluno = await devolverJsonMatriculaAlunos()
 const voltarTela = () => {
     const sair = document.getElementById('sair')
     sair.addEventListener('click', () => {
-        window.location.href = './javascript/turma/index.html'
+        window.location.href = '../../../../javascript/turma/index.html'
     })
 }
 

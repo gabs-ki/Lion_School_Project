@@ -2,6 +2,7 @@
 
 import { pegarListaDeCursosApi } from "./api/contatosapi.js"
 
+
 const cursoss = await pegarListaDeCursosApi()
 
 
@@ -34,7 +35,7 @@ const criarCard = (card) => {
         localStorage.setItem('nomeCurso', nomeCurso.getAttribute('cursoNome') )
         
         
-        window.location.href = "https://lion-school-project-git-lionschoolprojectdois-marcelo-g-v-s.vercel.app"
+        window.location.href = "./turma/index.html"
         
     })
         

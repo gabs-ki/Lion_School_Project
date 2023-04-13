@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/script.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./turma.css">
+    <title>Lion School</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="container__header">
+            <div class="logo"><img class="img_logo" src="./img/logo.png" alt="Imagem Logo">
+                <h1 class="titulo">Lion School</h1>
+            </div>
+            <div class="sair" id="sair">
+                <i class="fas fa-sign-out-alt"></i>
+                <p>Voltar</p>
+            </div>
+        
+        </div>
+ 
+        <div class="barra">
+
+            <nav class="menu">
+                
+                <li class="item__lista__status">
+                    Status
+                    <ul class="lista__status" >
+                        <li class="status_geral" id="status__geral">Geral</li>
+                        <li class="status__finalizado" id="status__finalizado">Finalizado</li>
+                        <li class="status__cursando" id="status__cursando">Cursando</li>
+                    </ul>
+                </li>
+            </nav>
+
+            <div class="filtro__ano">
+                <p>Ano de Conclusão: </p>
+                <input type="number" name="filtro_ano" id="input-year" class="input_ano">
+            </div>
+
+            <div class="lista__legenda">
+                <p class="legenda">LEGENDA:</p>
+
+                <div class="card__azul">
+                    <p class="cursando">Cursando</p>
+                </div>
+    
+                <div class="card__amarelo">
+                    <p class="finalizado">Finalizado</p>
+                </div>
+    
+                
+            </div>
+
+        </div>
+        
+    </header>
+ 
+    <main>
+
+        <section class="conteudo__turma">
+
+            <div class="container__titulo__turma" id="container__titulo__turma">
+
+                <!-- <h1 class="titulo__turma">Desenvolvimento de Sistemas</h1> -->
+        
+            </div>
+
+            <div class="lista__alunos" id="lista__alunos">
+
+                <!-- <div class="cards__turma">
+                    <img class="foto__estudante" src="./img/perfil.png" alt="">
+                    <p class="descricao__aluno">HÉLIDA BENTO DE OLIVEIRA LINS</p>
+                </div> -->
+               
+    
+            </div>
+    
+        </section>
+  
+    </main>
+
+    <footer>
+
+        <ul class="lista__contato">
+        <li class="item__lista">
+            <i class="fas fa-phone"></i>
+            <p>(11) 94774-4700</p>
+        </li>
+        <li class="item__lista">
+            <i class="fas fa-envelope"></i>
+            <p>lionschool@gmail.com</p>
+        </li>
+        <li class="item__lista">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Rua tcc, 211, Centro, Jandira</p>
+        </li>
+        </ul>
+        <p class="direito__autor">
+        Copyright © 2023 | Marcelo e Dwovanna
+        </p>
+        <ul class="lista__links">
+        <li>
+            <i class="fab fa-youtube"></i>
+        </li>
+        <li>
+            <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+            <i class="fab fa-instagram"></i>
+        </li>
+        <li>
+            <i class="fab fa-facebook"></i>
+        </li>
+        </ul>
+
+    </footer>
+
+</body>
+</html>

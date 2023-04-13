@@ -35,7 +35,7 @@ const criarCard = (card) => {
         localStorage.setItem('nomeCurso', nomeCurso.getAttribute('cursoNome') )
         
         
-        window.location.href = "./turma/index.html"
+        window.location.href = "./javascript/turma/index.html"
         
     })
         

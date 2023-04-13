@@ -34,7 +34,7 @@ const criarCard = (card) => {
         localStorage.setItem('nomeCurso', nomeCurso.getAttribute('cursoNome') )
         
         
-        window.location.href = "http://127.0.0.1:5501/turma/index.html"
+        window.location.href = "https://lion-school-project-git-lionschoolprojectdois-marcelo-g-v-s.vercel.app"
         
     })
         
